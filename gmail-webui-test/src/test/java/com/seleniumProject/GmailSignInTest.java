@@ -56,7 +56,7 @@ public class GmailSignInTest {
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='signIn']")));
 	        Assert.assertTrue("Sing in button Should exist",driver.findElements(By.xpath(".//*[@id='signIn']")).size()>0);
 	        
-	        Assert.assertTrue("Sing in button Should exist",driver.findElements(By.xpath(".//*[@id='signIn']")).size()>0);
+	        Assert.assertTrue("Sing in Should be button Should exist",driver.findElements(By.xpath(".//*[@id='signIn']")).size()>0);
 
 
 	    }
